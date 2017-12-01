@@ -1,7 +1,13 @@
 require 'numbers_and_words'
 
 def menu
+  puts 
+  puts
   puts "Enter a positive number!"
+  puts 
+  puts
+  puts "Type 'quit' to exit."
+
   @num = gets.strip.downcase
   if @num == 'quit'
     exit
